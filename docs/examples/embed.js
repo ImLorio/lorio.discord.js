@@ -3,7 +3,7 @@
  */
 
 // Extract the required classes from the discord.js module
-const { Client, RichEmbed } = require('discord.js');
+const { Client, RichEmbed } = require('lorio.discord.js');
 
 // Create an instance of a Discord client
 const client = new Client();

@@ -3,7 +3,7 @@
  */
 
 // Import the discord.js module
-const Discord = require('discord.js');
+const Discord = require('lorio.discord.js');
 
 // Create a new webhook
 const hook = new Discord.WebhookClient('webhook id', 'webhook token');

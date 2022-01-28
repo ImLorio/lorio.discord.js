@@ -8,7 +8,7 @@ Let's say you have a member that you'd like to kick. Here is an example of how y
 
 ```js
 // Import the discord.js module
-const Discord = require('discord.js');
+const Discord = require('lorio.discord.js');
 
 // Create an instance of a Discord client
 const client = new Discord.Client();
@@ -77,7 +77,7 @@ Banning works the same way as kicking, but it has slightly more options that can
 
 ```js
 // Import the discord.js module
-const Discord = require('discord.js');
+const Discord = require('lorio.discord.js');
 
 // Create an instance of a Discord client
 const client = new Discord.Client();

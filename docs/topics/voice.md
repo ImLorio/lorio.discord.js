@@ -19,7 +19,7 @@ The example below reacts to a message and joins the sender's voice channel, catc
 as it allows us to obtain a `VoiceConnection` that we can start to stream audio with.
 
 ```js
-const Discord = require('discord.js');
+const Discord = require('lorio.discord.js');
 const client = new Discord.Client();
 
 client.login('token here');

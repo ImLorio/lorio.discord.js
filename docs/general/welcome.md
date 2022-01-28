@@ -56,7 +56,7 @@ For production bots, using @discordjs/opus should be considered a necessity, esp
 
 ## Example usage
 ```js
-const Discord = require('discord.js');
+const Discord = require('lorio.discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {

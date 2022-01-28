@@ -10,7 +10,7 @@ The following examples use [Attachment](/#/docs/main/stable/class/Attachment).
 
 ```js
 // Extract the required classes from the discord.js module
-const { Client, Attachment } = require('discord.js');
+const { Client, Attachment } = require('lorio.discord.js');
 
 // Create an instance of a Discord client
 const client = new Client();
@@ -45,7 +45,7 @@ But what if you want to send an attachment with a message content? Fear not, for
 
 ```js
 // Extract the required classes from the discord.js module
-const { Client, Attachment } = require('discord.js');
+const { Client, Attachment } = require('lorio.discord.js');
 
 // Create an instance of a Discord client
 const client = new Client();
@@ -82,7 +82,7 @@ Sending a local file isn't hard either! We'll be using [Attachment](/#/docs/main
 
 ```js
 // Extract the required classes from the discord.js module
-const { Client, Attachment } = require('discord.js');
+const { Client, Attachment } = require('lorio.discord.js');
 
 // Create an instance of a Discord client
 const client = new Client();
@@ -120,7 +120,7 @@ You can use any buffer you want, and send it. Just make sure to overwrite the fi
 
 ```js
 // Extract the required classes from the discord.js module
-const { Client, Attachment } = require('discord.js');
+const { Client, Attachment } = require('lorio.discord.js');
 
 // Import the native fs module
 const fs = require('fs');

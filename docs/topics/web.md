@@ -12,7 +12,7 @@ Include the file on the page just as you would any other JS library, like so:
 <script type="text/javascript" src="discord.VERSION.min.js"></script>
 ```
 
-Rather than importing discord.js with `require('discord.js')`, the entire `Discord` object is available as a global (on the `window`) object.
+Rather than importing discord.js with `require('lorio.discord.js')`, the entire `Discord` object is available as a global (on the `window`) object.
 The usage of the API isn't any different from using it in Node.js.
 
 ## Restrictions
