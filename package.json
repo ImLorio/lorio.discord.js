@@ -1,6 +1,6 @@
 {
   "name": "lorio.discord.js",
-  "version": "11.6.9",
+  "version": "11.6.10",
   "description": "A powerful library for interacting with the Discord API | Fix for selfbot by Lorio",
   "main": "./src/index",
   "types": "./typings/index.d.ts",
