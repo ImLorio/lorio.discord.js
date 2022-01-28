@@ -78,6 +78,7 @@ class ClientDataManager {
             break;
         }
 
+        // Temp fix channel
         if (channel) guild.channels.set(channel.id, channel);
       }
     }
