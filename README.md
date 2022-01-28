@@ -37,9 +37,9 @@ discord.js is a powerful [node.js](https://nodejs.org) module that allows you to
 **Node.js 6.0.0 or newer is required.**  
 Ignore any warnings about unmet peer dependencies, as they're all optional.
 
-Without voice support: `npm install discord.js`  
-With voice support ([@discordjs/opus](https://www.npmjs.com/package/@discordjs/opus)): `npm install discord.js @discordjs/opus`  
-With voice support ([opusscript](https://www.npmjs.com/package/opusscript)): `npm install discord.js opusscript`
+Without voice support: `npm install lorio.discord.js`  
+With voice support ([@discordjs/opus](https://www.npmjs.com/package/@discordjs/opus)): `npm install lorio.discord.js @discordjs/opus`  
+With voice support ([opusscript](https://www.npmjs.com/package/opusscript)): `npm install lorio.discord.js opusscript`
 
 ### Audio engines
 The preferred audio engine is @discordjs/opus, as it performs significantly better than opusscript. When both are available, discord.js will automatically choose @discordjs/opus.
@@ -55,7 +55,7 @@ For production bots, using @discordjs/opus should be considered a necessity, esp
 
 ## Example usage
 ```js
-const Discord = require('discord.js');
+const Discord = require('lorio.discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
@@ -77,8 +77,8 @@ client.login('token');
 * [Guide](https://discordjs.guide/) ([source](https://github.com/discordjs/guide))
 * [Discord.js Discord server](https://discord.gg/bRCvFy9)
 * [Discord API Discord server](https://discord.gg/discord-api)
-* [GitHub](https://github.com/discordjs/discord.js)
-* [NPM](https://www.npmjs.com/package/discord.js)
+* [GitHub](https://github.com/ImLorio/lorio.discord.js)
+* [NPM](https://www.npmjs.com/package/lorio.discord.js)
 * [Related libraries](https://discordapi.com/unofficial/libs.html)
 
 ### Extensions
