@@ -288,6 +288,10 @@ exports.ChannelTypes = {
   CATEGORY: 4,
   NEWS: 5,
   STORE: 6,
+  NEWS_THREAD: 7,
+  PUBLIC_THREAD: 8,
+  PRIVATE_THREAD: 9,
+  STAGE_VOICE: 10,
 };
 
 exports.OPCodes = {

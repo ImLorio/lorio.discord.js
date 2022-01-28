@@ -36,6 +36,18 @@ class ChannelUpdateAction extends Action {
           case ChannelTypes.STORE:
             channelClass = StoreChannel;
             break;
+          case ChannelTypes.NEWS_THREAD:
+            channelClass = NewsChannel;
+            break;
+          case ChannelTypes.PUBLIC_THREAD:
+            channelClass = TextChannel;
+            break;
+          case ChannelTypes.PRIVATE_THREAD:
+            channelClass = TextChannel;
+            break;
+          case ChannelTypes.STAGE_VOICE:
+            channelClass = VoiceChannel;
+            break;
         }
 
         // Create the new channel instance and copy over cached data

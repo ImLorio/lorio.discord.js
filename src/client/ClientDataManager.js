@@ -32,7 +32,9 @@ class ClientDataManager {
        * @param {Guild} guild The created guild
        */
       if (this.client.options.fetchAllMembers) {
-        guild.fetchMembers().then(() => { this.client.emit(Constants.Events.GUILD_CREATE, guild); });
+        guild.fetchMembers().then(() => {
+          this.client.emit(Constants.Events.GUILD_CREATE, guild);
+        });
       } else {
         this.client.emit(Constants.Events.GUILD_CREATE, guild);
       }
@@ -76,9 +78,20 @@ class ClientDataManager {
           case Constants.ChannelTypes.STORE:
             channel = new StoreChannel(guild, data);
             break;
+          case Constants.ChannelTypes.NEWS_THREAD:
+            channel = new NewsChannel(guild, data);
+            break;
+          case Constants.ChannelTypes.PUBLIC_THREAD:
+            channel = new TextChannel(guild, data);
+            break;
+          case Constants.ChannelTypes.PRIVATE_THREAD:
+            channel = new TextChannel(guild, data);
+            break;
+          case Constants.ChannelTypes.STAGE_VOICE:
+            channel = new VoiceChannel(guild, data);
+            break;
         }
 
-        // Temp fix channel
         if (channel) guild.channels.set(channel.id, channel);
       }
     }
