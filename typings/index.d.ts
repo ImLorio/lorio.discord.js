@@ -5,7 +5,7 @@
 //   Zack Campbell <zajrik@gmail.com> (https://github.com/zajrik)
 // License: MIT
 
-declare module 'discord.js' {
+declare module 'lorio.discord.js' {
 	import { EventEmitter } from 'events';
 	import { Stream, Readable as ReadableStream } from 'stream';
 	import { ChildProcess } from 'child_process';
