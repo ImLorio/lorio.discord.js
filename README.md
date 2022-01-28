@@ -20,8 +20,8 @@ This package is a modified discord.js v11 package with some fix for user tokens
 
 ### To Do:
 - [X] Fix `Cannot read properties of undefined (reading 'id')`
-- [ ] Add support for thread channel and podcast channel 
-- [ ] Change User-Agent
+- [x] Change User-Agent
+- [x] Add support for thread channel and Stage Voice channel.
 
 ## About
 discord.js is a powerful [node.js](https://nodejs.org) module that allows you to interact with the
