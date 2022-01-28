@@ -6,12 +6,11 @@
   <br />
   <p>
     <a href="https://discord.gg/bRCvFy9"><img src="https://discordapp.com/api/guilds/222078108977594368/embed.png" alt="Discord server" /></a>
-    <a href="https://www.npmjs.com/package/lorio.discord.js"><img src="https://img.shields.io/npm/v/lorio.discord.js.svg?maxAge=3600" alt="NPM version" /></a>
-    <a href="https://www.npmjs.com/package/lorio.discord.js"><img src="https://img.shields.io/npm/dt/lorio.discord.js.svg?maxAge=3600" alt="NPM downloads" /></a>
-a>
+    <a href="https://www.npmjs.com/package/lorio.discord.js"><img src="https://img.shields.io/npm/v/lorio.discord.js.svg?maxAge=3600?style=for-the-badge" alt="NPM version" /></a>
+    <a href="https://www.npmjs.com/package/lorio.discord.js"><img src="https://img.shields.io/npm/dt/lorio.discord.js.svg?maxAge=3600?style=for-the-badge" alt="NPM downloads" /></a>
   </p>
   <p>
-    <a href="https://nodei.co/npm/lorio.discord.js/"><img src="https://nodei.co/npm/lorio.discord.js.png?downloads=true&stars=true" alt="NPM info" /></a>
+    <a href="https://nodei.co/npm/lorio.discord.js/"><img src="https://nodei.co/npm/lorio.discord.js.png?downloads=true&stars=true?compact=true" alt="NPM info" /></a>
   </p>
 </div>
 
@@ -19,9 +18,10 @@ a>
 This package is a modified discord.js v11 package with some fix for user tokens
 
 ### To Do:
-- [X] Fix `Cannot read properties of undefined (reading 'id')`
-- [x] Change User-Agent
-- [x] Add support for thread channel and Stage Voice channel.
+- [X] Fix channel error (`Cannot read properties of undefined (reading 'id')`)
+- [x] Change User-Agent 
+- [x] Add support for thread channel and Stage Voice channel (don't ignore it and declares as TextChannel or VoiceChannel).
+- [ ] Add full support for thread channel and stage voice channel
 
 ## About
 discord.js is a powerful [node.js](https://nodejs.org) module that allows you to interact with the
