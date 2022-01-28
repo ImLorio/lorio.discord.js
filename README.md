@@ -5,7 +5,6 @@
   </p>
   <br />
   <p>
-    <a href="https://discord.gg/bRCvFy9"><img src="https://discordapp.com/api/guilds/222078108977594368/embed.png" alt="Discord server" /></a>
     <a href="https://www.npmjs.com/package/lorio.discord.js"><img src="https://img.shields.io/npm/v/lorio.discord.js.svg?maxAge=3600&style=for-the-badge" alt="NPM version" /></a>
     <a href="https://www.npmjs.com/package/lorio.discord.js"><img src="https://img.shields.io/npm/dt/lorio.discord.js.svg?maxAge=3600&style=for-the-badge" alt="NPM downloads" /></a>
   </p>
