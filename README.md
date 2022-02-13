@@ -13,6 +13,8 @@
   </p>
 </div>
 
+# ⚠ Only for educational purposes ⚠
+
 ## INFORMATIONS
 This package is a modified discord.js v11 package with some fix for user tokens
 
