@@ -20,7 +20,7 @@ This package is a modified discord.js v11 package with some fix for user tokens
 
 ### To Do:
 - ✔️ Fix channel error (`Cannot read properties of undefined (reading 'id')`)
-- ✔️ Change User-Agent 
+- ✔️ Custom User-Agent
 - ✔️ Add support for thread channel and Stage Voice channel (don't ignore it and declares as TextChannel or VoiceChannel).
 - ❌ Add full support for thread channel and stage voice channel
 
