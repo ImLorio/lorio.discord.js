@@ -13,10 +13,10 @@
   </p>
 </div>
 
-# ⚠ Only for educational purposes ⚠
+# ⚠ I am not responsible for what you do with tihs package. ⚠
 
 ## INFORMATIONS
-This package is a modified discord.js v11 package with some fix for user tokens
+This package is a fixed version of discord.js v11.
 
 ### To Do:
 - ✔️ Fix channel error (`Cannot read properties of undefined (reading 'id')`)
